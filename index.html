@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Ruqyyah Hassan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <span class="navbar-brand">Portfolio - Ruqyyah Hassan</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#casestudies">Case Studies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section class="container py-5 section-spacing" id="intro">
+      <div class="row align-items-center text-center text-md-start">
+    
+    
+        <div class="col-md-4 order-1 order-md-2 d-flex justify-content-center mb-4 mb-md-0">
+          <img src="images/photo.jpg" alt="personal photo" class="profile-pic img-fluid rounded-circle shadow-lg about-photo">
+        </div>
+    
+        <div class="col-md-5 order-2 order-md-1">
+          <h1 class="fw-bold">Ruqyyah Hassan</h1>
+          <p>Software Engineering Student at the University of Ottawa</p>
+          <div class="text-center text-md-start">
+            <a href="images/resume.pdf" id="resume-button" class="resume-button  btn-primary mt-2" target="_blank">
+              View My Resume
+            </a>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+    <!-- À propos de moi -->
+    <section id="about" class="py-5 section-spacing">
+      <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+        <h1 class="fw-bold mb-5 display-5" style="color: black;">About Me</h1>
+        <p>
+          Hello! I am a second-year Software Engineering student at the University of Ottawa. 
+        </p>
+        <p>
+          I’m passionate about building clean, accessible user interfaces and constantly learning new tools and technologies. I enjoy turning ideas into intuitive digital experiences and love working on projects that combine creativity with problem-solving.
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Ma façon de travailler -->
+    <section id="experience" class="py-5 section-spacing">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h1 class="fw-bold mb-5 display-5" style="color: black;">How I Work</h1>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Learning -->
+          <div class="col-md-6 mb-4">
+            <div class="glass-card animate-fade-in p-3">
+              <div class="d-flex align-items-start">
+                <div class="badge bg-primary text-white me-3">🎓</div>
+                <div>
+                  <h5 class="fw-bold mb-2">Design Foundations</h5>
+                  <p class="text-muted mb-0">
+                    I'm currently taking the SEG3525 UI design course at uOttawa, where I'm learning key design principles, accessibility, and visual communication. I explore tools like Bootstrap to bring ideas to life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resources -->
+          <div class="col-md-6 mb-4">
+            <div class="glass-card animate-fade-in p-3">
+              <div class="d-flex align-items-start">
+                <div class="badge bg-success text-white me-3">📚</div>
+                <div>
+                  <h5 class="fw-bold mb-2">Design Inspiration</h5>
+                  <p class="text-muted mb-0">
+                    I use resources like <a href="https://www.nngroup.com/" target="_blank">NN/g</a> to guide my understanding of effective, research-backed UX. These principles shape how I think about user-centered design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Études de cas -->
+    <section id="casestudies" class="py-5 section-spacing">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h1 class="fw-bold mb-5 display-5" style="color: black;">Projects</h1>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Design 1</h5>
+              <p class="card-text">Coming soon</p>
+              <a href="design1.html" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Design 2</h5>
+              <p class="card-text">Coming soon</p>
+              <a href="design2.html" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Design 3</h5>
+              <p class="card-text">Coming soon</p>
+              <a href="design3.html" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Design 4</h5>
+              <p class="card-text">Coming soon</p>
+              <a href="design4.html" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

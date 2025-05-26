@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.section-spacing {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+#intro .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0; /* No space between image and text */
+}
+
+#intro img {
+    display: block;
+    margin: 0 auto;
+}
+
+.resume-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #080a09);
+    color: #F9F9F9;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    border-radius: 30%;
+    transition: transform 0.3s ease;
+}
+
+.section-spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.custom-bg {
+    background-color: #211e1c;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #0d6efd, #20c997);
+    -webkit-text-fill-color: transparent;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-6px);
+}
+
+.badge {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
