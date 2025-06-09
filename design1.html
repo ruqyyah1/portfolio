@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>À venir</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga Studio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Design à venir</h1>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">YogaFlow</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="classes.html">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="instructors.html">Instructors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero mt-5">
+    <div class="container">
+      <h1>Welcome to YogaFlow</h1>
+      <p>Balance your mind, body, and soul in our peaceful studio.</p>
+      <a href="classes.html" class="btn btn-primary btn-lg">View Classes</a>
+    </div>
+  </section>
+
+  <!-- Class Cards -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/class1.jpg" class="card-img-top" alt="Beginner Yoga">
+          <div class="card-body">
+            <h5 class="card-title">Beginner Yoga</h5>
+            <p class="card-text">Perfect for newcomers. Learn foundational poses and breathing techniques.</p>
+            <div class="card-buttons">
+              <a href="contact.html" class="btn btn-outline-primary">Book Now</a>
+              <a href="classes.html#beginner" class="btn btn-outline-secondary">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/class2.jpg" class="card-img-top" alt="Evening Flow">
+          <div class="card-body">
+            <h5 class="card-title">Evening Flow</h5>
+            <p class="card-text">Unwind after a long day with this calming and revitalizing session.</p>
+            <div class="card-buttons">
+              <a href="contact.html" class="btn btn-outline-primary">Book Now</a>
+              <a href="classes.html#evening" class="btn btn-outline-secondary">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/class3.jpg" class="card-img-top" alt="Power Yoga">
+          <div class="card-body">
+            <h5 class="card-title">Power Yoga</h5>
+            <p class="card-text">Challenge your strength and stamina in this high-energy class.</p>
+            <div class="card-buttons">
+              <a href="contact.html" class="btn btn-outline-primary">Book Now</a>
+              <a href="classes.html#power" class="btn btn-outline-secondary">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

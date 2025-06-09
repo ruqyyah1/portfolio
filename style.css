@@ -94,4 +94,84 @@ body {
     flex-shrink: 0;
 }
 
+/* Yoga Studio custom styles */
 
+.hero {
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+  background-color: #9c27b0;
+  border: none;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.card-buttons a {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.instructor-img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border: 3px solid #ccc;
+  border-radius: 12px;
+}
+
+.instructor-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 0.75rem;
+}
+
+.instructor-bio {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
